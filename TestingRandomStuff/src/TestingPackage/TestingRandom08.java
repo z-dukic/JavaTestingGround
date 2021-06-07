@@ -17,7 +17,6 @@ public class TestingRandom08 {
 		System.out.println("Daj mi drugi broj: ");
 		int drugiBroj = Integer.valueOf(scanner.nextLine());
 		
-		System.out.println(prviBroj + drugiBroj);
 		System.out.println("Zbrajanje: " + (prviBroj + drugiBroj));
 		
 
