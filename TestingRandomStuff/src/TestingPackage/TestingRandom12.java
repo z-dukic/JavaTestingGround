@@ -35,6 +35,8 @@ public class TestingRandom12 {
 
 		}
 
+		// Cak i da je neka druga linija koda tocna ispod broja 5 on ju nece isprintati
+		// cim ispuni prvi condition
 		int b = 5;
 		if (b == 1) {
 			System.out.println("Broj je jedan");
@@ -49,25 +51,7 @@ public class TestingRandom12 {
 		} else {
 			System.out.println("Nije nijedan od navedenih brojeva");
 		}
-		
-		
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
