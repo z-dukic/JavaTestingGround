@@ -153,6 +153,26 @@ public class TestingRandom20 {
 		// i razlika prvog i drugog manja od 0 program ispisuje
 		// Osijek, inaèe ispisuje Donji Miholjac.
 
+		
+		int c,v;
+				
+		c = Integer.parseInt(JOptionPane.showInputDialog("Daj mi C"));
+		v = Integer.parseInt(JOptionPane.showInputDialog("Daj mi V"));
+		
+		if((c+v)>10 && (c-v)<0) {
+			System.out.println("OSijek");
+		}else {
+			System.out.println("Donji Miholjac");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
