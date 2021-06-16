@@ -30,9 +30,9 @@ public class TestingRandom38 {
 
 		// program ispisuje sve parne brojeve od 1 do 55
 		// U petlji obavezno koristiti vrijednosti 1 i 55
-		
-		for(int i=1; i<=55;i++) {
-			if(i%2==0) {
+
+		for (int i = 1; i <= 55; i++) {
+			if (i % 2 == 0) {
 				System.out.println(i);
 			}
 		}
@@ -44,18 +44,30 @@ public class TestingRandom38 {
 
 		// Program unosi 5 cijelih brojeva u niz
 		// Program ispisuje najve�i uneseni broj
-		
-		int[] drugiArray = {1,2,3,4,5};
+
+		int[] drugiArray = { 1, 2, 8, 4, 5 };
 		int max = 0;
-		for(int i=0;i<drugiArray.length;i++) {
-			if(drugiArray[i] > max){
+		for (int i = 0; i < drugiArray.length; i++) {
+			if (drugiArray[i] > max) {
 				max = drugiArray[i];
 			}
-			
-		}System.out.println(max);
-		
-		
-	
+
+		}
+		System.out.println(max);
+
+		int[] treciArray = { 5, 6, 8, 9, 563, 1 };
+		int prviNajveciBroj = 0;
+		int drugiNajveciBroj = 0;
+
+		for (int i = 0; i < treciArray.length; i++) {
+			if (treciArray[i] > prviNajveciBroj) {
+				drugiNajveciBroj = treciArray[i];
+				prviNajveciBroj = treciArray[i];
+			} else if (treciArray[i] > drugiNajveciBroj) {
+				drugiNajveciBroj = treciArray[i];
+			}
+		}System.out.println(prviNajveciBroj);
+		System.out.println(drugiNajveciBroj);
 
 	}
 
