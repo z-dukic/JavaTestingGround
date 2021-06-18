@@ -22,14 +22,9 @@ public class TestingRandom45 {
 				break;
 
 			}
-			
-			// Program unosi 10 cijelih brojeva od korisnika
-			// u jednodimenzionalni niz
-			// Program ispisuje sve elemente niza
-			
-			for (int i = 0;i<=10;i++) {
-				System.out.println(Arrays.toString(i));
-			}
+
+
+
 		}
 
 	}
