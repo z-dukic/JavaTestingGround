@@ -40,6 +40,6 @@ public class TestingRandom46 {
 			System.out.println("Broj " + x + " nije prim broj");
 		}
 			}
-		}}
+		}
 
-}
+
