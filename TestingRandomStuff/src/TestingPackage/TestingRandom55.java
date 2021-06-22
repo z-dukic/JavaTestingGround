@@ -31,21 +31,26 @@ public class TestingRandom55 {
 
 		System.out.println(broj2.substring(2));
 		System.out.println();
-		
+
 		String pojam = "2,3,4,3,2,3,3";
 		System.out.println(pojam);
-		System.out.println(pojam.indexOf(",",5));	
-		for(int i=0;i<pojam.length();i++) {
+		System.out.println(pojam.indexOf(",", 5));
+		for (int i = 0; i < pojam.length(); i++) {
 			System.out.print(pojam.charAt(i));
 		}
 		String[] niz = pojam.split(",");
 		System.out.println(Arrays.toString(niz));
-		
-		int suma=0;
-		for(String e: niz) {
-			suma+=Integer.parseInt(e);
+
+		int suma = 0;
+		for (String e : niz) {
+			suma += Integer.parseInt(e);
 		}
 		System.out.println(suma);
+
+		String BiloKojeIme = "Ivan,Ivana, Ivano";
+		System.out.println(BiloKojeIme.concat(broj2));
+		
+		
 	}
 
 }
