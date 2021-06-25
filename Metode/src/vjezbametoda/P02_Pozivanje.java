@@ -18,6 +18,7 @@ public class P02_Pozivanje {
 		//4.metoda - 
 		x.ispis3(25, 20);	
 		
+		//5. metoda
 		
 	}
 
