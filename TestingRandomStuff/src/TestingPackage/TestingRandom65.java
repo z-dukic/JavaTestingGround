@@ -28,12 +28,7 @@ public class TestingRandom65 {
 				System.out.println(" " + sum2);
 				
 				
-				if(sum2%x==0 && sum2%y==0) {
-					System.out.println("PEro");
-					System.out.println(" " + sum2);
-				
 
-			}
 
 				
 			}
