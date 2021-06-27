@@ -14,14 +14,16 @@ public class TestingRandom67 {
 		// metoda ispisuje prim brojeve izmeðu dva primljena broja
 
 		TestingRandom67 pero = new TestingRandom67();
-	
-		System.out.println("Testiram broj: " + x);
+		
+
 		System.out.println(primBroj(5));
+		
 
 	}
 
 	public static boolean primBroj(int x) {
-
+		
+		System.out.println("Broj koji si izabrao je: " + x);
 		for (int i = 2; i < x; i++) {
 			if (i % x == 0) {
 
