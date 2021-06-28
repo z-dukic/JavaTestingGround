@@ -3,27 +3,29 @@ package TestingPackage;
 public class TestingRandom73 {
 
 	public static void main(String[] args) {
-		// Kreirati metodu tipa int naziva suma 
+		// Kreirati metodu tipa int naziva suma
 		// koja prima niz cijelih brojeva
 		// metoda vraæa sumu svih brojeva u nizu
-		
+
 		// Metodu pozvati iz main metode
-		
-		Integer[]niz= {1,45,6};	
-		System.out.println(suma(niz));
+
+		// Step 2
+		Integer[] niz = { 1, 45, 6 }; // parametri koji ulaze u metodu
+		System.out.println(suma(niz)); // printaj metodu(niz)
 	}
-	
-	public static int suma(Integer[]niz) {
-		
-		int suma=0;
-		
-		for(int broj : niz) {
-			suma+=broj;
-			
+
+	public static int suma(Integer[] niz) {
+
+		// Step1
+		int suma = 0; // inciranje sume koja će pohranit vrijednost
+
+		for (int broj : niz) { // for each loop; za svaki broj u nizu dodjeli jedan broj. 1=10, 2=20, 3=30
+			suma += broj; // suma svih brojeva
+
 		}
-		
-		return suma;
-		
+
+		return suma; // vrati sumu
+
 	}
 
 }

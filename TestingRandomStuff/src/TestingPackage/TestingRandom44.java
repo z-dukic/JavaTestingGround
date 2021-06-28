@@ -2,7 +2,7 @@ package TestingPackage;
 
 import javax.swing.JOptionPane;
 
-public class TestinRandom44 {
+public class TestingRandom44 {
 
 	public static void main(String[] args) {
 		// Program ispisuje sve brojeve od 100 do 21
