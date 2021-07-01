@@ -5,19 +5,37 @@ import javax.swing.JOptionPane;
 public class TestingRandom95 {
 	public static void main(String[] args) {
 
-		int x = Integer.parseInt(JOptionPane.showInputDialog("Broj redova"));
-		int y = Integer.parseInt(JOptionPane.showInputDialog("Broj redova"));
+		int krajReda = Integer.parseInt(JOptionPane.showInputDialog("Broj redova"));
+		int krajKolone = Integer.parseInt(JOptionPane.showInputDialog("Broj redova"));
 
-		int niz[][] = new int[x][y];
+		int pocetakReda = 0, pocetakKolone = 0;
 
-		for (int i = 0; i < x; i++) {
-			for (int j = 0; j < y; j++)
+		int broj = 1;
+		int sum = 0;
 
-				System.out.print(" " + niz[i][j]);
+		int niz[][] = new int[krajReda][krajKolone];
 
-			System.out.println(" ");
-		}
+	
+			for (int i = pocetakKolone; i < krajKolone; i++) {
+				niz[pocetakReda][i] = (i+1);
+				
+				
+
+				for (int j = pocetakReda; j < krajReda; j++) {
+					niz[i][krajReda - 1] = (i+1);
+				
+					
+				
+
+					System.out.print(" " + niz[i][j]);
+				}
+
+				System.out.println(" ");
+
+			}
+	
+			}
 
 	}
 
-}
+
