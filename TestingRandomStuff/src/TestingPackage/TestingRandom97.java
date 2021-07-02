@@ -19,18 +19,13 @@ public class TestingRandom97 {
 
 			for (int j = pocetakReda; j < krajReda; j++) {
 
-				suma = krajKolone * krajReda;
-				niz[krajKolone - 1][i] = i+1;
-				niz[krajKolone - 2][i] = i+1;
-				niz[krajKolone - 3][i] = i+1;
-				niz[krajKolone - 4][i] = i+1;
-				niz[krajKolone - 5][i] = i+1;
 
-				niz[j][krajReda - 1] = j+1;
-				niz[j][krajReda - 2] = 1+(niz[j][krajReda - 1]);
-				niz[j][krajReda - 3] = j+3;
-				niz[j][krajReda - 4] = j+4;
-				niz[j][krajReda - 5] = j+5;
+
+				niz[j][krajReda - 1] = i+1;
+				niz[j][krajReda - 2] = i+2;
+				niz[j][krajReda - 3] = i+3;
+				niz[j][krajReda - 4] = i+4;
+				niz[j][krajReda - 5] = i+5;
 						// prvi stupac
 
 				System.out.print(" " + niz[i][j]);
